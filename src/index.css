@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #0f172a;
+    background-color: #f8fafc;
+    letter-spacing: -0.011em;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif;
+    letter-spacing: -0.025em;
+  }
+}
+
+/* Authentic, Deep Blue Atmospheric Gradient with Rich Contrast */
+.bg-hero-blue {
+  background-color: #081120;
+  background-image: 
+    radial-gradient(circle at 12% 18%, rgba(14, 165, 233, 0.3) 0%, transparent 42%),
+    radial-gradient(circle at 88% 65%, rgba(37, 99, 235, 0.38) 0%, transparent 50%),
+    radial-gradient(circle at 50% 90%, rgba(29, 78, 216, 0.25) 0%, transparent 45%),
+    linear-gradient(145deg, #050b14 0%, #0a1936 40%, #0e2858 75%, #183e7c 100%);
+}
+
+.text-gradient-blue {
+  background: linear-gradient(135deg, #38bdf8 0%, #60a5fa 50%, #93c5fd 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

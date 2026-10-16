@@ -1,0 +1,6 @@
+{
+  "name": "EVENTFLOW - Event Registration Platform",
+  "description": "Production-grade Event Registration and Management System built with the MERN stack for participants and administrators.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
